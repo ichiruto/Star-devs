@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star-Devus🎇</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body>
+    <Header>
+        <h1>Star-Devs</h1>
+    </Header>
+    <main>
+        <section class="cards-main">
+            <div class="card-container">
+                <div class="card-main">
+                    <span>Personagens</span>
+                    <h2 id="persons">Carregando...</h2>
+                </div>
+                <img src="./IMG/darth.svg" alt="imagem Personagens">
+            </div>
+            <div class="card-container">
+                <div class="card-main">
+                    <span>Planetas</span>
+                    <h2 id="planets">Carregando...</h2>
+                </div>
+                <img src="./IMG/planet.svg" alt="imagem planetas">
+            </div>
+            <div class="card-container">
+                <div class="card-main">
+                    <span>Naves</span>
+                    <h2 id="starships">Carregando...</h2>
+                </div>
+                <img src="./IMG/starship.svg" alt="imagem naves">
+            </div>
+        </section>
+        <section class="phrases-container">
+            <button id="btn-phrases" onclick="loadPhrase()">Ler uma frase.</button>
+            <p id="phrase"></p>
+        </section>
+    </main>
+    <script src="./JS/main.js"></script>
+</body>
+</html>
